@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:rebeccapurple;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex: wrap;
+    padding: 20px;
+    color:rebeccapurple;
+    background-color: rgb(240, 236, 236);
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 5px;
+}
+
+.menu li a{
+    display:block;
+    padding: 10px;
+}
+
+a{
+    color: rebeccapurple;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    background-color: rebeccapurple;
+    color: rgb(240, 236, 236);
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(240, 236, 236);
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 82px);
+}
+
+#banner h1{
+    font-size: 70px;
+    padding: 15px 0;
+}
+.card-grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    text-align: center;
+}
+
+.card-game img{
+    height: 400px;
+    width: 50%;
+    border: 2px solid rgb(240, 236, 236);
+    transition: all 0.3s ease-in-out ;
+}
+
+.card-game img:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 90px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.btn:hover{
+    background: rgb(101, 67, 134);
+    color: rgb(240, 236, 236);
+    font-weight: bold;
+}
+
+h4{
+    color: rgb(240, 236, 236);
+    font-weight:21px ;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color:rebeccapurple;
+    background-color: rgb(240, 236, 236);
+}
+
+.contatos{
+    color: rgb(240, 236, 236);
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+
+}
+
+.consoles img{
+    height: 300px;
+    width: 50%;
+    
+    transition: all 0.3s ease-in-out ;
+}
+
+.contatos2{
+    color: rgb(240, 236, 236);
+    text-align: center;
+    margin-top: 10px;
+  margin-bottom: 20px;
+    display: inline;
+}
+
+.parceiros{
+    color: rgb(240, 236, 236);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parceiros img{
+    height: 300px;
+    width: 20%
+}
